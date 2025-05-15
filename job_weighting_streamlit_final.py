@@ -97,3 +97,4 @@ if uploaded_file:
                 file_name="job_weighting_output.csv",
                 mime="text/csv"
             )
+
