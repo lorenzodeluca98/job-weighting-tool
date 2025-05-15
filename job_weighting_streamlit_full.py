@@ -1,6 +1,14 @@
+import streamlit as st
+
+# ✅ Solo una chiamata e per prima cosa
+st.set_page_config(
+    page_title="AI Job Weighting Tool",
+    page_icon="🧠",
+    layout="wide"
+)
+
 import os
 import pandas as pd
-import streamlit as st
 from dotenv import load_dotenv
 import openai
 import random
